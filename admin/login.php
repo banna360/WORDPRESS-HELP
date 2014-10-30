@@ -4,7 +4,7 @@ session_start();
 $errorMessage = '';
 if (isset($_POST['txtUserId']) && isset($_POST['txtPassword'])) {
 // check if the user id and password combination is correct
-if ($_POST['txtUserId'] === 'admin' && $_POST['txtPassword'] === 'Password123') {
+if ($_POST['txtUserId'] === 'xxxx' && $_POST['txtPassword'] === 'xxxx') {
 // the user id and password match,
 // set the session
 $_SESSION['basic_is_logged_in'] = true;
